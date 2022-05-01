@@ -7,6 +7,7 @@ stage('Checkout "Tasks" Repo')  {
       steps {
         dir('TasksRepo') {
           git branch: 'main', url: "${params.link}"
+          sh "ls"
         }
       }
     }
