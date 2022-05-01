@@ -1,7 +1,7 @@
 pipeline {
   agent any
   parameters {
-    string(name: 'link', defaultValue: 'https://github.com/lessons2021/chess.git')}
+    string(name: 'link', defaultValue: 'https://github.com/Sahakanush/Pipeline_Library.git')}
   stages {
 stage('Checkout "Tasks" Repo')  {
       steps {
